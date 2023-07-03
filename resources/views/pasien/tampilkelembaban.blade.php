@@ -9,8 +9,7 @@
 <body>
     <div style="line-height: 2px;">
         @foreach($data as $dt)
-        <h1><center><b>{{ $dt->kelembaban }}</b></center></h1><br>
-        <center>%</center>
+        <h1><b>{{ $dt->kelembaban }} <span style="font-size: 24px; vertical-align: top; ">%</span></b></h1><br>
         @endforeach
     </div>
 </body>

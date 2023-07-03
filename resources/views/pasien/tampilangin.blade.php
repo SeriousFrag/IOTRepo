@@ -9,8 +9,7 @@
 <body>
     <div style="line-height: 2px;">
         @foreach($data as $dt)
-        <h1><center><b>{{ $dt->kecepatan_angin }}</b></center></h1><br>
-        <center>m/s</center>
+        <h1><b>{{ $dt->kecepatan_angin }} <span style="font-size: 24px; vertical-align: top; ">m/s</span></b></h1><br>
         @endforeach
     </div>
 </body>
